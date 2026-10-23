@@ -14,13 +14,13 @@ An end-to-end e-commerce data warehouse implementation using Databricks, PySpark
 - Dashboard analysis by month, category, weekday/weekend, and hour
 
 ## Project Files
-- `1_dim_bronze.ipynb`
-- `2_dim_silver.ipynb`
-- `3_dim_gold.ipynb`
-- `1_fact_bronze.ipynb`
-- `2_fact_silver.ipynb`
-- `3_fact_gold.ipynb`
-- `denormalise_table_query.txt`
+- `dim_bronze.ipynb`
+- `dim_silver.ipynb`
+- `dim_gold.ipynb`
+- `fact_bronze.ipynb`
+- `fact_silver.ipynb`
+- `fact_gold.ipynb`
+- `denormalise_final_table.txt`
 
 ## Dashboard Findings
 - Net amount declined in September and recovered in October 2025.
