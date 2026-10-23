@@ -1,2 +1,31 @@
-# ecommerce-data-warehouse
-End-to-end e-commerce data warehouse implementation using Databricks, PySpark, Delta tables, and SQL
+# E-commerce Data Warehouse
+
+## Overview
+An end-to-end e-commerce data warehouse implementation using Databricks, PySpark, Delta tables, and SQL. The project uses a Bronze–Silver–Gold architecture to ingest, clean, transform, and prepare data for sales analysis.
+
+## Architecture
+**Source CSVs → Bronze → Silver → Gold → Denormalised SQL View → Sales Insights Dashboard**
+
+## Key Features
+- Data ingestion and cleaning
+- Dimension and fact table creation
+- Sales measure calculations
+- SQL joins and denormalised view creation
+- Dashboard analysis by month, category, weekday/weekend, and hour
+
+## Project Files
+- `1_dim_bronze.ipynb`
+- `2_dim_silver.ipynb`
+- `3_dim_gold.ipynb`
+- `1_fact_bronze.ipynb`
+- `2_fact_silver.ipynb`
+- `3_fact_gold.ipynb`
+- `denormalise_table_query.txt`
+
+## Dashboard Findings
+- Net amount declined in September and recovered in October 2025.
+- Electronics contributed the highest net amount by category.
+- Weekday net amount was higher than weekend net amount in the displayed dashboard.
+
+## Tools
+Databricks | PySpark | Delta Tables | SQL
